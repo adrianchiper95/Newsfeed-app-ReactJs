@@ -2,3 +2,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Newsfeed app with dynamic json (https://newsapi.org/) builded with ReactJs.
 
+<:                  Live Demo                      :>
+
+http://adrianchiper95.github.io/Newsfeed-app-ReactJs/
+
+<:                                                 :> 
