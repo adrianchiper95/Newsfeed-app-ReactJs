@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#03001E, #460D84 40%, #4818A8, #362171) center fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+#root {
+  width: 1352px;
+    margin: 0 auto;
+    margin-top: 1em;
+}
+

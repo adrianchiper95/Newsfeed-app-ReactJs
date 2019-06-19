@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo_image img {
+  width: 4em;
+  height: 4em;
+}
+
+.logo_text {
+  color: white; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo_text span {
+  color: rgb(116, 16, 230); 
+}
+
+.logo_text, span {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+  
+.login_text, .contact_text {
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+}
+  
+.login_logo img, .contact_logo img {
+  width: 49px;
+  height: auto;
+  padding-left: 1em;
+}
+  
+.contact_text {
+  padding-left: 1em;
+}
