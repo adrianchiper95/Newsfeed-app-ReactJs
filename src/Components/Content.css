@@ -1,15 +1,12 @@
 
 main {
-  border-radius: 2em;
-  margin-top: 2em;
-  background-color: white;
-}
-
-main {
   margin: 0em;
-  padding: 0.5em 0em 0em 1em;
+  padding: 0.5em;
   font-family: 'Quicksand', sans-serif;
   color: #2B2B80;
+  border-radius: 2em;
+  margin-top: 1em;
+  background-color: white;
 }
 
 main h1 {
@@ -19,7 +16,7 @@ main h1 {
 }
 .orizontal_line {
   margin-left: 2em; 
-  width: 80em;
+  width: 25em;
   height: 2px;
   background-color: #2B2B80;
 }
@@ -31,9 +28,9 @@ main h1 {
   grid-gap: 2em;
   grid-auto-rows: 22em;
 
- }
+}
 
- #latest_news > div {
+#latest_news > div {
   border-radius: 20px;
   background-color: #E7F3FC;
 }
@@ -45,7 +42,7 @@ main h1 {
   grid-gap: 2em;
   grid-auto-rows: 22em;
 
- }
+}
 
 #trending_news > div {
   border-radius: 20px;
@@ -129,6 +126,7 @@ main img {
 }
 
 #nav_source img:hover {
+cursor: pointer;
 border-radius: 6em;
 box-shadow:  0 0 8px 10px #6E10E5;
 }

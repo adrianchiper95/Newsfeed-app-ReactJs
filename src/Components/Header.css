@@ -49,3 +49,11 @@ header {
 .contact_text {
   padding-left: 1em;
 }
+
+.login_logo img:hover, .login_text:hover {
+  cursor: pointer;
+}
+
+.contact_logo img:hover, .contact_text:hover {
+  cursor: pointer;
+}
