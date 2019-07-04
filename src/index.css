@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -5,11 +9,16 @@ body {
     fixed;
   background-repeat: repeat;
   background-size: cover;
-  box-sizing: border-box;
-}
-
-#root {
-  width: 1352px;
+  max-width: 1352px;
   margin: 0 auto;
   margin-top: 1em;
 }
+
+a:hover, 
+a:focus, 
+a:active, 
+a:link {
+  text-decoration: none;
+  color: #2B2B80;
+}
+
