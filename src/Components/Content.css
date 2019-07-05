@@ -229,5 +229,13 @@ box-shadow:  0 0 8px 10px #6E10E5;
   #latest_news, 
   #trending_news {
     grid-template-columns: 1fr;
-    }
+  }
+
+  .big a:focus, 
+  .square a:focus, 
+  .wide a:focus {
+  background-color: aliceblue;
+  opacity: 0.6;
+  border-radius: 20px;
+  }
 }
