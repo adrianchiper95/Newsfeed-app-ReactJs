@@ -9,7 +9,7 @@ body {
     fixed;
   background-repeat: repeat;
   background-size: cover;
-  max-width: 1352px;
+  max-width: 175vh;
   margin: 0 auto;
   margin-top: 1em;
 }

@@ -143,6 +143,7 @@ border-radius: 6em;
 box-shadow:  0 0 8px 10px #6E10E5;
 }
 
+
 @media only screen and (max-width: 1280px) {
  #nav_source {
   padding: 2em 7em 2em;
@@ -229,6 +230,13 @@ box-shadow:  0 0 8px 10px #6E10E5;
   #latest_news, 
   #trending_news {
     grid-template-columns: 1fr;
+  }
+
+  #nav_source{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+
   }
 
   .big a:focus, 
