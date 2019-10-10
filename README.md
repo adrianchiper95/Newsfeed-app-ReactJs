@@ -7,5 +7,5 @@ This site is now responsive and you can access the sources of the articles.
 
 <:                  Live Demo                      :>
 
-http://adrianchiper95.github.io/Newsfeed-app-ReactJs/
+https://voidnews.netlify.com/
 
