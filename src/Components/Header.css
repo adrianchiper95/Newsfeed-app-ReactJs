@@ -43,35 +43,6 @@ header {
   align-items: center;
 }
 
-.section {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-  
-.login_text, .contact_text {
-  color: white;
-  font-family: 'Quicksand', sans-serif;
-}
-  
-.login_logo img, .contact_logo img {
-  width: 60px;
-  height: auto;
-  padding-left: 1em;
-}
-  
-.contact_text {
-  padding-left: 1em;
-}
-
-.login_logo img:hover, .login_text:hover {
-  cursor: pointer;
-}
-
-.contact_logo img:hover, .contact_text:hover {
-  cursor: pointer;
-}
-
 @media only screen and (max-width: 650px) {
   #nav_source {
     margin-top: 5em;
