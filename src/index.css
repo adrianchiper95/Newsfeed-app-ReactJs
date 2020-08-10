@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(#03001e, #460d84 40%, #4818a8, #362171) center
+    fixed;
+  background-repeat: repeat;
+  background-size: cover;
+  max-width: 175vh;
+  margin: 0 auto;
+  margin-top: 1em;
+}
+
+a:hover, 
+a:focus, 
+a:active, 
+a:link {
+  text-decoration: none;
+  color: #2B2B80;
+}
+

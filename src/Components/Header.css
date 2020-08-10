@@ -1,0 +1,80 @@
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-mobile {
+  display: none;
+}
+
+.logo {
+  transition: transform .2s;
+}
+
+.logo:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+
+}
+
+.logo_image img {
+  width: 4em;
+  height: 4em;
+}
+
+.logo_text {
+  color: white; 
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo_text span {
+  color: rgb(116, 16, 230); 
+}
+
+.logo_text, span {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.logo {
+  display: flex; 
+  flex-direction: row;
+  align-items: center;
+}
+
+@media only screen and (max-width: 650px) {
+  #nav_source {
+    margin-top: 5em;
+  }
+
+  .logo-bar {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+  }
+
+  .logo-mobile {
+    padding: 0.8em;
+    width: 65px;
+    height: 65px;
+    margin: 0 auto;
+    background-color: rgb(116, 16, 230);
+    border-radius: 50px;
+    display: block;
+    transition: transform .2s;
+  }
+
+  .logo-mobile:active {
+    transform: scale(1.2);
+  }
+
+  .logo-mobile img {
+    max-width: 2.5em;
+    height: auto;
+  }
+
+  .logo {
+    display: none;
+  }
+}
